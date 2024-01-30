@@ -20,6 +20,6 @@ The goal of this project was learn and pratice the use of Room on android develo
 
 ![](./screenShots/demonstração.gif)
 
-![](./screenShots/geral)
-![](./screenShots/addContato)
-![](./screenShots/editContato)
+![](./screenShots/geral.jpg)
+![](./screenShots/addContato.jpg)
+![](./screenShots/editContato.jpg)
