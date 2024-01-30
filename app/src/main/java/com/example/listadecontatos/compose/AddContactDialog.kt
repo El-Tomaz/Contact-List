@@ -39,7 +39,7 @@ fun AddContactDialog(
     modifier: Modifier = Modifier
 ) {
 
-    Dialog(onDismissRequest = { /*TODO*/ }) {
+    Dialog(onDismissRequest = { onEvent(ContactEvent.HideDialog) }) {
         Card(
             elevation = CardDefaults.cardElevation(5.dp),
             modifier = Modifier

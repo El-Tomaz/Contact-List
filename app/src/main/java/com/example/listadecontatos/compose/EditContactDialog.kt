@@ -38,7 +38,7 @@ fun EditContactDialog(
     modifier: Modifier = Modifier
 ) {
 
-    Dialog(onDismissRequest = { /*TODO*/ }) {
+    Dialog(onDismissRequest = { onEvent(ContactEvent.HideEditDialog) }) {
         Card(
             modifier = Modifier
                 .padding(8.dp)
